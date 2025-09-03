@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f8ff;
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+  /* 페이지 전체 스크롤 확대 방지 */
+  touch-action: pan-x pan-y;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
